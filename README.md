@@ -35,6 +35,6 @@ Beyond technical development, I also focus on teaching and inspiring students th
 
 ## 🌍 Connect With Me
 
-- Website: https://shoyabsadik.github.io/
+- Portfolio: https://shoyabsadik.github.io/
 - LinkedIn: https://www.linkedin.com/in/shoyabsadik/
 - WhatsApp: +8801575317604
