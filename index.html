@@ -94,7 +94,7 @@
   .gallery-item:hover img { transform: scale(1.05); }
   .gallery-caption { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.78)); color: #ddd; font-size: 0.7rem; padding: 20px 12px 10px; opacity: 0; transform: translateY(6px); transition: opacity 0.25s, transform 0.25s; }
   .gallery-item:hover .gallery-caption { opacity: 1; transform: none; }
-  .refs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .refs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
   .ref-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 22px; transition: border-color 0.2s; }
   .ref-card:hover { border-color: var(--accent); }
   .ref-name { font-weight: 600; font-size: 0.95rem; margin-bottom: 8px; }
@@ -341,8 +341,13 @@
         <span class="ref-email" style="cursor:pointer;" onclick="window.location='mai'+'lto:raton.nondy'+'@iubat.edu'">raton&#46;nondy&#64;iubat&#46;edu</span>
       </div>
       <div class="ref-card sc-zoom" style="transition-delay:0.15s">
+        <div class="ref-name">Dr. Khadiza Akter (Bonna)</div>
+        <div class="ref-role">Associate Professor and Coordinator<br>Department of EEE, IUBAT</div>
+        <span class="ref-email" style="cursor:pointer;" onclick="window.location='mai'+'lto:khadiza'+'@iubat.edu'">khadiza&#64;iubat&#46;edu</span>
+      </div>
+      <div class="ref-card sc-zoom" style="transition-delay:0.3s">
         <div class="ref-name">S.M. Rezaul Karim</div>
-        <div class="ref-role">Assistant Professor and Coordinator<br>Department of EEE, IUBAT</div>
+        <div class="ref-role">Ex-Assistant Professor and Coordinator<br>Department of EEE, IUBAT</div>
         <span class="ref-email" style="cursor:pointer;" onclick="window.location='mai'+'lto:rkarim'+'@iubat.edu'">rkarim&#64;iubat&#46;edu</span>
       </div>
     </div>
